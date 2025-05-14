@@ -1,0 +1,3 @@
+MERGE INTO boards KEY(id) VALUES ('68648390-871c-4e44-a107-533a512e9372', '2025-01-02', 'Description board 1', 'Board-1') ;
+MERGE INTO columns KEY(id) VALUES ('31e7fe1c-f6df-4127-ad1a-eef67900d16f', '2025-01-02', 'Column-1', 1, '68648390-871c-4e44-a107-533a512e9372');
+MERGE INTO cards KEY(id) VALUES ('36b157ec-a0d3-4066-a49b-93d74dd8a4a0', '2025-01-02', 'Description card 1', 'Card-1', 1, '31e7fe1c-f6df-4127-ad1a-eef67900d16f')
